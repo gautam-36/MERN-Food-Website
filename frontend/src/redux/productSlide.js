@@ -4,7 +4,7 @@ import { toast } from "react-hot-toast";
 const initialState = {
   productList: [],
   cartItem: JSON.parse(localStorage.getItem("cartItem")) || [],
-};
+}; 
 
 export const productSlice = createSlice({
   name: "product",
