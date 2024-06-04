@@ -9,15 +9,26 @@ import { useDispatch, useSelector } from "react-redux";
 
 function App() {
   const dispatch = useDispatch()
+<<<<<<< HEAD
   const productData = useSelector((state) => state.product)
 
   useEffect(() => {
     (async () => {
+=======
+  const productData = useSelector((state)=>state.product)
+ 
+  useEffect(()=>{
+    (async()=>{
+>>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7
       const res = await fetch(`https://food-backend-mern.onrender.com/product`)
       const resData = await res.json()
       dispatch(setDataProduct(resData))
     })()
+<<<<<<< HEAD
   }, [])
+=======
+  },[])
+>>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7
 
   return (
     <>

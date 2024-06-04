@@ -34,7 +34,13 @@ const Header = () => {
         <div className="flex items-center gap-4 md:gap-7">
           <nav className="gap-4 md:gap-6 text-base md:text-lg hidden md:flex">
             <Link to={""}>Home</Link>
+<<<<<<< HEAD
             <Link to={"menu/645bcd4cfb4338b29b67f2c3"}>Menu</Link>  
+=======
+            <Link to={"menu/645bcd4cfb4338b29b67f2c3"}>Menu</Link>
+            <Link to={"about"}>About</Link>
+            <Link to={"contact"}>Contact</Link>
+>>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7
           </nav>
           <div className="text-2xl text-slate-600 relative">
             <Link to={"cart"}>

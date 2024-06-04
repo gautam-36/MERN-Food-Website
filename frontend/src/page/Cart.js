@@ -28,7 +28,11 @@ const Cart = () => {
         const stripe = await stripePromise;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         const res = await fetch("https://food-backend-mern.onrender.com/checkout", {
+=======
+        const res = await fetch("http://localhost:8080/checkout", {
+>>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7
 =======
         const res = await fetch("http://localhost:8080/checkout", {
 >>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7

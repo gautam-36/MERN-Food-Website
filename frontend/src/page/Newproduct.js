@@ -26,7 +26,11 @@ const Newproduct = () => {
 
   const uploadImage = async (e) => {
     const data = await ImagetoBase64(e.target.files[0])
+<<<<<<< HEAD
     console.log(data)
+=======
+    // console.log(data)
+>>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7
 
     setData((preve) => {
       return {
@@ -99,6 +103,10 @@ const Newproduct = () => {
               data.image ? <img src={data.image} className="h-full" /> : <span className='text-5xl'><BsCloudUpload /></span>
             }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7
             <input type={"file"} accept="image/*" id="image" onChange={uploadImage} className="hidden" />
           </div>
         </label>

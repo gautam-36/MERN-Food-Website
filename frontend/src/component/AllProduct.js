@@ -44,6 +44,7 @@ const AllProduct = ({ heading }) => {
             );
           })
         ) : (
+<<<<<<< HEAD
           <div
             class="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
             role="status">
@@ -51,12 +52,18 @@ const AllProduct = ({ heading }) => {
               class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
             >Loading...</span> 
              </div>
+=======
+          <div className="min-h-[150px] flex justify-center items-center">
+            <p>Loading...</p>
+          </div>
+>>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7
         )}
       </div>
 
       <div className="flex flex-wrap justify-center gap-4 my-4">
         {dataFilter[0]
           ? dataFilter.map((el) => {
+<<<<<<< HEAD
             return (
               <CardFeature
                 key={el._id}
@@ -72,9 +79,30 @@ const AllProduct = ({ heading }) => {
           loadingArrayFeature.map((el, index) => (
             <CardFeature loading="Loading..." key={index + "allProduct"} />
           ))}
+=======
+              return (
+                <CardFeature
+                  key={el._id}
+                  id={el._id}
+                  image={el.image}
+                  name={el.name}
+                  category={el.category}
+                  price={el.price}
+                />
+              );
+            })
+          : 
+          loadingArrayFeature.map((el,index) => (
+              <CardFeature loading="Loading..." key={index+"allProduct"} />
+            ))}
+>>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7
       </div>
     </div>
   );
 };
 
+<<<<<<< HEAD
 export default AllProduct;
+=======
+export default AllProduct;
+>>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7

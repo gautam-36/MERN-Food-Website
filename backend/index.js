@@ -44,6 +44,7 @@ root.render(
 );
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const PORT = process.env.PORT || 8080;
 
 //mongodb connection
@@ -191,8 +192,13 @@ app.post("/checkout", async (req, res) => {
 //server is ruuning
 app.listen(PORT, () => console.log("server is running at port : " + PORT));
 =======
+=======
+>>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+<<<<<<< HEAD
+>>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7
+=======
 >>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7

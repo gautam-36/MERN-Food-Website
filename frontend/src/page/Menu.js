@@ -20,7 +20,10 @@ const Menu = () => {
     dispatch(addCartItem(productDisplay))
       navigate("/cart")
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7
   return (
     <div className="p-2 md:p-4">
       <div className="w-full max-w-4xl m-auto md:flex bg-white">

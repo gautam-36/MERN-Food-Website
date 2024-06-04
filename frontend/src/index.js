@@ -11,6 +11,11 @@ import {
 } from "react-router-dom";
 import Home from "./page/Home";
 import Menu from "./page/Menu";
+<<<<<<< HEAD
+=======
+import About from "./page/About";
+import Contact from "./page/Contact";
+>>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7
 import Login from "./page/login";
 import Newproduct from "./page/Newproduct";
 import Signup from "./page/Signup";
@@ -26,12 +31,22 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       {/* <Route path="menu" element={<Menu />} /> */}
       <Route path="menu/:filterby" element={<Menu />} />
+<<<<<<< HEAD
+=======
+      <Route path="about" element={<About />} />
+      <Route path="contact" element={<Contact />} />
+>>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7
       <Route path="login" element={<Login />} />
       <Route path="newproduct" element={<Newproduct />} />
       <Route path="signup" element={<Signup />} />
       <Route path="cart" element={<Cart />} />
+<<<<<<< HEAD
       <Route path="success" element={<Success />} />
       <Route path="cancel" element={<Cancel />} />
+=======
+      <Route path="success" element={<Success/>}/>
+      <Route path="cancel" element={<Cancel/>}/>
+>>>>>>> e6e82dc8f6524e4c16e3aa266baecb4a77dee8d7
     </Route>
   )
 );
